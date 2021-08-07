@@ -68,10 +68,11 @@ const Tag = styled.strong`
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
+  min-width: 320px;
+  flex: 1;
 `;
 
 const Wrapper = styled.article`
-  max-width: 320px;
 `;
 
 const ImageWrapper = styled.div`
